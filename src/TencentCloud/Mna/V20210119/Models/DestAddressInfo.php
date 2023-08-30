@@ -18,7 +18,7 @@ namespace TencentCloud\Mna\V20210119\Models;
 use TencentCloud\Common\AbstractModel;
 
 /**
- * 移动网络加速目标地址结构体
+ * 多网聚合加速目标地址结构体
  *
  * @method array getDestIp() 获取加速业务目标 ip 地址数组
  * @method void setDestIp(array $DestIp) 设置加速业务目标 ip 地址数组
