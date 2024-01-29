@@ -20,15 +20,15 @@ use TencentCloud\Common\AbstractModel;
 /**
  * 网络详细信息
  *
- * @method float getCurrent() 获取流量值（bit）
- * @method void setCurrent(float $Current) 设置流量值（bit）
+ * @method float getCurrent() 获取流量值（byte）
+ * @method void setCurrent(float $Current) 设置流量值（byte）
  * @method string getTime() 获取时间点，单位：s
  * @method void setTime(string $Time) 设置时间点，单位：s
  */
 class NetDetails extends AbstractModel
 {
     /**
-     * @var float 流量值（bit）
+     * @var float 流量值（byte）
      */
     public $Current;
 
@@ -38,7 +38,7 @@ class NetDetails extends AbstractModel
     public $Time;
 
     /**
-     * @param float $Current 流量值（bit）
+     * @param float $Current 流量值（byte）
      * @param string $Time 时间点，单位：s
      */
     function __construct()
