@@ -20,22 +20,22 @@ use TencentCloud\Common\AbstractModel;
 /**
  * GetFlowPackages返回参数结构体
  *
- * @method array getPackageList() 获取流量包列表
- * @method void setPackageList(array $PackageList) 设置流量包列表
- * @method integer getTotal() 获取总数
- * @method void setTotal(integer $Total) 设置总数
+ * @method array getPackageList() 获取<p>流量包列表</p>
+ * @method void setPackageList(array $PackageList) 设置<p>流量包列表</p>
+ * @method integer getTotal() 获取<p>总数</p>
+ * @method void setTotal(integer $Total) 设置<p>总数</p>
  * @method string getRequestId() 获取唯一请求 ID，由服务端生成，每次请求都会返回（若请求因其他原因未能抵达服务端，则该次请求不会获得 RequestId）。定位问题时需要提供该次请求的 RequestId。
  * @method void setRequestId(string $RequestId) 设置唯一请求 ID，由服务端生成，每次请求都会返回（若请求因其他原因未能抵达服务端，则该次请求不会获得 RequestId）。定位问题时需要提供该次请求的 RequestId。
  */
 class GetFlowPackagesResponse extends AbstractModel
 {
     /**
-     * @var array 流量包列表
+     * @var array <p>流量包列表</p>
      */
     public $PackageList;
 
     /**
-     * @var integer 总数
+     * @var integer <p>总数</p>
      */
     public $Total;
 
@@ -45,8 +45,8 @@ class GetFlowPackagesResponse extends AbstractModel
     public $RequestId;
 
     /**
-     * @param array $PackageList 流量包列表
-     * @param integer $Total 总数
+     * @param array $PackageList <p>流量包列表</p>
+     * @param integer $Total <p>总数</p>
      * @param string $RequestId 唯一请求 ID，由服务端生成，每次请求都会返回（若请求因其他原因未能抵达服务端，则该次请求不会获得 RequestId）。定位问题时需要提供该次请求的 RequestId。
      */
     function __construct()
